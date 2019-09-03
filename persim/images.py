@@ -164,7 +164,7 @@ class PersImage(TransformerMixin):
 
         def identity(interval):
             # identity function
-            return interval[1]
+            return 1
 
         def pw_linear(interval):
             """ This is the function defined as w_b(t) in the original PI paper
